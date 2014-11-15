@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Door : MonoBehaviour {
+public class Door : ISwitchable {
 
 	public bool isOpen = false;
 	public bool opensOutward = true;
@@ -11,11 +11,13 @@ public class Door : MonoBehaviour {
 	private bool isOpening = false;
 	private bool isClosing = false;
 	private float angleChange = 90.0f;
+	private bool startedOpen = false;
 
 	// Use this for initialization
 	void Start () {
 		openT = isOpen ? 1.0f : 0.0f;
 		angleChange = opensOutward ? -90.0f : 90.0f;
+		startedOpen = isOpen;
 	}
 	
 	// Update is called once per frame
@@ -48,5 +50,18 @@ public class Door : MonoBehaviour {
 
 	public void Close () {
 		isClosing = true; isOpening  = false;
+	}
+
+	//ISwitchable methods
+	public override void SwitchOn () {
+		//whether On means open or close depends on the initial state of the door
+		if (startedOpen) Close ();
+		else Open ();
+	}
+
+	public override void SwitchOff () {
+		//whether On means open or close depends on the initial state of the door
+		if (startedOpen) Open ();
+		else Close ();
 	}
 }

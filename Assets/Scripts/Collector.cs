@@ -23,8 +23,9 @@ public class Collector : MonoBehaviour {
 		if (item) {
 			inventory.AddInventoryItem(item);
 			item.transform.parent = inventory.gameObject.transform;
-			item.enabled = false;
+			item.transform.position = new Vector3(0, 0, 0);
 			item.renderer.enabled = false;
+			item.collider.enabled = false;
 		}
 	}
 }
