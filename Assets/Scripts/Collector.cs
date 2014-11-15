@@ -20,12 +20,11 @@ public class Collector : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col) {
 		Characteristics item = col.collider.GetComponent<Characteristics>();
-		Debug.Log ("Collided");
 		if (item) {
 			inventory.AddInventoryItem(item);
 			item.transform.parent = inventory.gameObject.transform;
-			Debug.Log ("Got it!");
 			item.enabled = false;
+			item.renderer.enabled = false;
 		}
 	}
 }
