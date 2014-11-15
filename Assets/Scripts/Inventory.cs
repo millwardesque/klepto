@@ -33,8 +33,6 @@ public class Inventory : MonoBehaviour {
 	public void AddInventoryItem(Characteristics item) {
 		items.Add (item);
 
-		rigidbody.mass += item.Weight;
-
 		bagWeight += item.Weight;
 		bagValue += item.Value;
 		bagSize += item.Size;
