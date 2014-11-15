@@ -27,7 +27,31 @@ public class Inventory : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyDown (KeyCode.P)) {
+			if (HasOwner()) {
+				DetachFromOwner();
+			}
+			else if ((GameObject.FindGameObjectWithTag("MainCamera").transform.position - transform.position).magnitude < 3.0){
+				AttachToOwner (GameObject.FindGameObjectWithTag("MainCamera"));
+			}
+		}
+	}
 
+	public bool HasOwner() {
+		return (transform.parent != null);
+	}
+
+	public void DetachFromOwner() {
+		transform.parent = null;
+		GetComponent<JellyMesh>().SetKinematic(false, false);
+		audio.Play();
+	}
+
+	public void AttachToOwner(GameObject obj) {
+		transform.parent = obj.transform;
+		GetComponent<JellyMesh>().SetKinematic(true, true);
+
+		audio.Play();
 	}
 
 	public void AddInventoryItem(Characteristics item) {

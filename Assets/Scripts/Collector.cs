@@ -11,6 +11,7 @@ public class Collector : MonoBehaviour {
 			Debug.LogError(string.Format ("Unable to set up collector on '{0}': No GameObject with Inventory label exists.", gameObject.name));
 		}
 		inventory = inventoryObject.GetComponent<Inventory>();
+		inventory.AttachToOwner(gameObject);
 	}
 	
 	// Update is called once per frame
@@ -24,7 +25,10 @@ public class Collector : MonoBehaviour {
 			inventory.AddInventoryItem(item);
 			item.transform.parent = inventory.gameObject.transform;
 			item.transform.position = new Vector3(0, 0, 0);
-			item.renderer.enabled = false;
+
+			if (item.renderer) {
+				item.renderer.enabled = false;
+			}
 			item.collider.enabled = false;
 		}
 	}

@@ -57,6 +57,13 @@ public class CharacterControls : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
+		if (Mathf.Abs(Input.GetAxis("Horizontal")) < 0.1f && Mathf.Abs (Input.GetAxis ("Vertical")) < 0.1f) {
+			audio.mute = true;
+		}
+		else {
+			audio.mute = false;
+		}
+
 		if (grounded) {
 			// Calculate how fast we should be moving
 			Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));

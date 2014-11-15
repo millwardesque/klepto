@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Klepto Bag Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: .194226861, y: -.111056596, z: .31965971, w: .920738876}
+  m_LocalPosition: {x: .695649981, y: 3.55725765, z: -.320662707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 387f1f1fb6665d14696122d5965a0b0a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0a1eea7e1e3da428143947824c8bb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Style: 3
+  m_FreeModeBodyPositions:
+  - {x: 0, y: 0, z: 0}
+  - {x: -.178507, y: .588208735, z: -.188811794}
+  - {x: .178507, y: .588208735, z: -.188811794}
+  - {x: .178507, y: .588208735, z: .188811794}
+  - {x: -.178507, y: .588208735, z: .188811794}
+  - {x: 0, y: .411791265, z: 0}
+  m_FreeModeBodyRadii:
+  - 0
+  - .54905504
+  - .54905504
+  - .54905504
+  - .54905504
+  - .54905504
+  m_FreeModeBodyKinematic: 000000000000
+  m_MassStyle: 1
+  m_SourceMesh: {fileID: 4300000, guid: edbb16a9badd3f64ab51ba2491ae2a81, type: 3}
+  m_PhysicsMaterial: {fileID: 0}
+  m_PhysicsMaterial2D: {fileID: 0}
+  m_VertexDensity: 10
+  m_SphereRadius: .25
+  m_DistanceExponent: 2
+  m_Stiffness: 40
+  m_Mass: 1
+  m_LockRotationX: 1
+  m_LockRotationY: 1
+  m_LockRotationZ: 1
+  m_GravityScale: 1
+  m_CollideConnected: 0
+  m_CentralBodyKinematic: 0
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_RadiusPoints: 16
+  m_DampingRatio: 5
+  m_SoftBodyScale: {x: 1, y: .699999988, z: 1}
+  m_SoftBodyOffset: {x: 0, y: 1, z: 0}
+  m_SoftBodyPivotOffset: {x: 0, y: 0, z: 0}
+  m_SoftBodyRotation: {x: 0, y: 0, z: 0}
+  m_MeshScale: {x: 1, y: 1, z: 1}
+  m_2DMode: 0
+  m_RecalculateNormals: 1
+  m_AttachNeighbors: 0
+  m_NumAttachPoints: 0
+  m_AttachPoints: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: cef788f30af83594289da6084c05521a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: costola_arcuata
+    100002: costola_arcuata 1
+    100004: costola_arcuata 2
+    100006: costola_dritta
+    100008: costola_dritta 1
+    100010: Diamond
+    100012: Diamond_1
+    100014: group_0
+    100016: group_1
+    100018: group_2
+    100020: group_3
+    100022: group_4
+    100024: group_5
+    100026: ID114
+    100028: ID114 1
+    100030: ID114 10
+    100032: ID114 11
+    100034: ID114 12
+    100036: ID114 13
+    100038: ID114 14
+    100040: ID114 15
+    100042: ID114 16
+    100044: ID114 17
+    100046: ID114 18
+    100048: ID114 19
+    100050: ID114 2
+    100052: ID114 3
+    100054: ID114 4
+    100056: ID114 5
+    100058: ID114 6
+    100060: ID114 7
+    100062: ID114 8
+    100064: ID114 9
+    100066: ID135
+    100068: ID141
+    100070: ID15
+    100072: ID161
+    100074: ID169
+    100076: ID175
+    100078: ID181
+    100080: ID196
+    100082: ID202
+    100084: ID208
+    100086: ID21
+    100088: ID214
+    100090: ID256
+    100092: ID266
+    100094: ID27
+    100096: ID274
+    100098: ID282
+    100100: ID290
+    100102: ID298
+    100104: ID314
+    100106: ID320
+    100108: ID326
+    100110: ID33
+    100112: ID334
+    100114: ID340
+    100116: ID353
+    100118: ID361
+    100120: ID369
+    100122: ID375
+    100124: ID381
+    100126: ID387
+    100128: ID39
+    100130: ID395
+    100132: ID401
+    100134: ID409
+    100136: ID413
+    100138: ID417
+    100140: ID45
+    100142: ID67
+    100144: ID80
+    100146: ID88
+    100148: instance_0
+    100150: instance_1
+    100152: instance_10
+    100154: instance_11
+    100156: instance_12
+    100158: instance_13
+    100160: instance_14
+    100162: instance_15
+    100164: instance_16
+    100166: instance_17
+    100168: instance_18
+    100170: instance_19
+    100172: instance_2
+    100174: instance_20
+    100176: instance_21
+    100178: instance_22
+    100180: instance_23
+    100182: instance_24
+    100184: instance_25
+    100186: instance_26
+    100188: instance_27
+    100190: instance_3
+    100192: instance_4
+    100194: instance_5
+    100196: instance_6
+    100198: instance_7
+    100200: instance_8
+    100202: instance_9
+    100204: //RootNode
+    100206: scrigno
+    100208: testa_vite
+    100210: testa_vite 1
+    100212: testa_vite 10
+    100214: testa_vite 11
+    100216: testa_vite 12
+    100218: testa_vite 13
+    100220: testa_vite 14
+    100222: testa_vite 15
+    100224: testa_vite 16
+    100226: testa_vite 17
+    100228: testa_vite 18
+    100230: testa_vite 19
+    100232: testa_vite 2
+    100234: testa_vite 3
+    100236: testa_vite 4
+    100238: testa_vite 5
+    100240: testa_vite 6
+    100242: testa_vite 7
+    100244: testa_vite 8
+    100246: testa_vite 9
+    400000: costola_arcuata
+    400002: costola_arcuata 1
+    400004: costola_arcuata 2
+    400006: costola_dritta
+    400008: costola_dritta 1
+    400010: Diamond
+    400012: Diamond_1
+    400014: group_0
+    400016: group_1
+    400018: group_2
+    400020: group_3
+    400022: group_4
+    400024: group_5
+    400026: ID114
+    400028: ID114 1
+    400030: ID114 10
+    400032: ID114 11
+    400034: ID114 12
+    400036: ID114 13
+    400038: ID114 14
+    400040: ID114 15
+    400042: ID114 16
+    400044: ID114 17
+    400046: ID114 18
+    400048: ID114 19
+    400050: ID114 2
+    400052: ID114 3
+    400054: ID114 4
+    400056: ID114 5
+    400058: ID114 6
+    400060: ID114 7
+    400062: ID114 8
+    400064: ID114 9
+    400066: ID135
+    400068: ID141
+    400070: ID15
+    400072: ID161
+    400074: ID169
+    400076: ID175
+    400078: ID181
+    400080: ID196
+    400082: ID202
+    400084: ID208
+    400086: ID21
+    400088: ID214
+    400090: ID256
+    400092: ID266
+    400094: ID27
+    400096: ID274
+    400098: ID282
+    400100: ID290
+    400102: ID298
+    400104: ID314
+    400106: ID320
+    400108: ID326
+    400110: ID33
+    400112: ID334
+    400114: ID340
+    400116: ID353
+    400118: ID361
+    400120: ID369
+    400122: ID375
+    400124: ID381
+    400126: ID387
+    400128: ID39
+    400130: ID395
+    400132: ID401
+    400134: ID409
+    400136: ID413
+    400138: ID417
+    400140: ID45
+    400142: ID67
+    400144: ID80
+    400146: ID88
+    400148: instance_0
+    400150: instance_1
+    400152: instance_10
+    400154: instance_11
+    400156: instance_12
+    400158: instance_13
+    400160: instance_14
+    400162: instance_15
+    400164: instance_16
+    400166: instance_17
+    400168: instance_18
+    400170: instance_19
+    400172: instance_2
+    400174: instance_20
+    400176: instance_21
+    400178: instance_22
+    400180: instance_23
+    400182: instance_24
+    400184: instance_25
+    400186: instance_26
+    400188: instance_27
+    400190: instance_3
+    400192: instance_4
+    400194: instance_5
+    400196: instance_6
+    400198: instance_7
+    400200: instance_8
+    400202: instance_9
+    400204: //RootNode
+    400206: scrigno
+    400208: testa_vite
+    400210: testa_vite 1
+    400212: testa_vite 10
+    400214: testa_vite 11
+    400216: testa_vite 12
+    400218: testa_vite 13
+    400220: testa_vite 14
+    400222: testa_vite 15
+    400224: testa_vite 16
+    400226: testa_vite 17
+    400228: testa_vite 18
+    400230: testa_vite 19
+    400232: testa_vite 2
+    400234: testa_vite 3
+    400236: testa_vite 4
+    400238: testa_vite 5
+    400240: testa_vite 6
+    400242: testa_vite 7
+    400244: testa_vite 8
+    400246: testa_vite 9
+    2300000: costola_arcuata
+    2300002: costola_arcuata 1
+    2300004: costola_arcuata 2
+    2300006: costola_dritta
+    2300008: costola_dritta 1
+    2300010: Diamond
+    2300012: group_0
+    2300014: group_1
+    2300016: group_3
+    2300018: group_4
+    2300020: group_5
+    2300022: ID114
+    2300024: ID114 1
+    2300026: ID114 10
+    2300028: ID114 11
+    2300030: ID114 12
+    2300032: ID114 13
+    2300034: ID114 14
+    2300036: ID114 15
+    2300038: ID114 16
+    2300040: ID114 17
+    2300042: ID114 18
+    2300044: ID114 19
+    2300046: ID114 2
+    2300048: ID114 3
+    2300050: ID114 4
+    2300052: ID114 5
+    2300054: ID114 6
+    2300056: ID114 7
+    2300058: ID114 8
+    2300060: ID114 9
+    2300062: ID135
+    2300064: ID15
+    2300066: ID161
+    2300068: ID169
+    2300070: ID175
+    2300072: ID181
+    2300074: ID196
+    2300076: ID202
+    2300078: ID208
+    2300080: ID21
+    2300082: ID214
+    2300084: ID256
+    2300086: ID266
+    2300088: ID27
+    2300090: ID274
+    2300092: ID282
+    2300094: ID290
+    2300096: ID298
+    2300098: ID314
+    2300100: ID320
+    2300102: ID326
+    2300104: ID33
+    2300106: ID334
+    2300108: ID340
+    2300110: ID353
+    2300112: ID361
+    2300114: ID369
+    2300116: ID375
+    2300118: ID381
+    2300120: ID387
+    2300122: ID39
+    2300124: ID395
+    2300126: ID401
+    2300128: ID67
+    2300130: ID80
+    2300132: ID88
+    2300134: scrigno
+    2300136: testa_vite
+    2300138: testa_vite 1
+    2300140: testa_vite 10
+    2300142: testa_vite 11
+    2300144: testa_vite 12
+    2300146: testa_vite 13
+    2300148: testa_vite 14
+    2300150: testa_vite 15
+    2300152: testa_vite 16
+    2300154: testa_vite 17
+    2300156: testa_vite 18
+    2300158: testa_vite 19
+    2300160: testa_vite 2
+    2300162: testa_vite 3
+    2300164: testa_vite 4
+    2300166: testa_vite 5
+    2300168: testa_vite 6
+    2300170: testa_vite 7
+    2300172: testa_vite 8
+    2300174: testa_vite 9
+    3300000: costola_arcuata
+    3300002: costola_arcuata 1
+    3300004: costola_arcuata 2
+    3300006: costola_dritta
+    3300008: costola_dritta 1
+    3300010: Diamond
+    3300012: group_0
+    3300014: group_1
+    3300016: group_3
+    3300018: group_4
+    3300020: group_5
+    3300022: ID114
+    3300024: ID114 1
+    3300026: ID114 10
+    3300028: ID114 11
+    3300030: ID114 12
+    3300032: ID114 13
+    3300034: ID114 14
+    3300036: ID114 15
+    3300038: ID114 16
+    3300040: ID114 17
+    3300042: ID114 18
+    3300044: ID114 19
+    3300046: ID114 2
+    3300048: ID114 3
+    3300050: ID114 4
+    3300052: ID114 5
+    3300054: ID114 6
+    3300056: ID114 7
+    3300058: ID114 8
+    3300060: ID114 9
+    3300062: ID135
+    3300064: ID15
+    3300066: ID161
+    3300068: ID169
+    3300070: ID175
+    3300072: ID181
+    3300074: ID196
+    3300076: ID202
+    3300078: ID208
+    3300080: ID21
+    3300082: ID214
+    3300084: ID256
+    3300086: ID266
+    3300088: ID27
+    3300090: ID274
+    3300092: ID282
+    3300094: ID290
+    3300096: ID298
+    3300098: ID314
+    3300100: ID320
+    3300102: ID326
+    3300104: ID33
+    3300106: ID334
+    3300108: ID340
+    3300110: ID353
+    3300112: ID361
+    3300114: ID369
+    3300116: ID375
+    3300118: ID381
+    3300120: ID387
+    3300122: ID39
+    3300124: ID395
+    3300126: ID401
+    3300128: ID67
+    3300130: ID80
+    3300132: ID88
+    3300134: scrigno
+    3300136: testa_vite
+    3300138: testa_vite 1
+    3300140: testa_vite 10
+    3300142: testa_vite 11
+    3300144: testa_vite 12
+    3300146: testa_vite 13
+    3300148: testa_vite 14
+    3300150: testa_vite 15
+    3300152: testa_vite 16
+    3300154: testa_vite 17
+    3300156: testa_vite 18
+    3300158: testa_vite 19
+    3300160: testa_vite 2
+    3300162: testa_vite 3
+    3300164: testa_vite 4
+    3300166: testa_vite 5
+    3300168: testa_vite 6
+    3300170: testa_vite 7
+    3300172: testa_vite 8
+    3300174: testa_vite 9
+    4300000: scrigno
+    4300002: ID314
+    4300004: ID320
+    4300006: ID326
+    4300008: ID334
+    4300010: ID340
+    4300012: ID353
+    4300014: ID361
+    4300016: ID369
+    4300018: ID375
+    4300020: ID381
+    4300022: ID387
+    4300024: ID395
+    4300026: ID401
+    4300028: group_0
+    4300030: ID15
+    4300032: ID21
+    4300034: ID27
+    4300036: ID33
+    4300038: ID39
+    4300040: group_1
+    4300042: ID135
+    4300044: group_3
+    4300046: ID67
+    4300048: ID80
+    4300050: ID88
+    4300052: costola_arcuata
+    4300054: testa_vite
+    4300056: ID114
+    4300058: group_4
+    4300060: ID161
+    4300062: ID169
+    4300064: ID175
+    4300066: ID181
+    4300068: group_5
+    4300070: ID196
+    4300072: ID202
+    4300074: ID208
+    4300076: ID214
+    4300078: costola_dritta
+    4300080: Diamond
+    4300082: ID256
+    4300084: ID266
+    4300086: ID274
+    4300088: ID282
+    4300090: ID290
+    4300092: ID298
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
