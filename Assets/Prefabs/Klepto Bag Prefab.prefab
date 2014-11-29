@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc0a1eea7e1e3da428143947824c8bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Style: 3
+  m_Style: 1
   m_FreeModeBodyPositions:
   - {x: 0, y: 0, z: 0}
   - {x: -.178507, y: .588208735, z: -.188811794}
@@ -89,9 +89,9 @@ MonoBehaviour:
   m_PhysicsMaterial: {fileID: 0}
   m_PhysicsMaterial2D: {fileID: 0}
   m_VertexDensity: 10
-  m_SphereRadius: .25
-  m_DistanceExponent: 2
-  m_Stiffness: 40
+  m_SphereRadius: .187000006
+  m_DistanceExponent: 1
+  m_Stiffness: 5
   m_Mass: 1
   m_LockRotationX: 1
   m_LockRotationY: 1
@@ -100,9 +100,9 @@ MonoBehaviour:
   m_CollideConnected: 0
   m_CentralBodyKinematic: 0
   m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_RadiusPoints: 16
-  m_DampingRatio: 5
+  m_AngularDrag: .00499999989
+  m_RadiusPoints: 10
+  m_DampingRatio: 10
   m_SoftBodyScale: {x: 1, y: .699999988, z: 1}
   m_SoftBodyOffset: {x: 0, y: 1, z: 0}
   m_SoftBodyPivotOffset: {x: 0, y: 0, z: 0}
