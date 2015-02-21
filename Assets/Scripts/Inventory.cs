@@ -27,12 +27,18 @@ public class Inventory : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//update the bag size
+		float scale = Mathf.Max (Mathf.Sqrt (bagSize/100.0f), 0.1f);
+		transform.localScale = new Vector3 (scale, scale, scale); 
+
 		if (Input.GetKeyDown (KeyCode.P)) {
 			if (HasOwner()) {
 				DetachFromOwner();
+				Debug.Log ("Bag dropped");
 			}
 			else if ((GameObject.FindGameObjectWithTag("MainCamera").transform.position - transform.position).magnitude < 3.0){
-				AttachToOwner (GameObject.FindGameObjectWithTag("MainCamera"));
+				AttachToOwner (GameObject.FindGameObjectWithTag("MainCamera"));	
+				Debug.Log ("Bag picked up");
 			}
 		}
 	}
